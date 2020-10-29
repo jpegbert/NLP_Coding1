@@ -37,7 +37,7 @@ def tf_idf():
     pass
 
 
-def count_vectors__ridge_classifier():
+def count_vectors_ridge_classifier():
     """
     Count Vectors + RidgeClassifier
     """
@@ -71,7 +71,7 @@ def text_classify_compare():
     """
     文本分类方法对比
     """
-    count_vectors__ridge_classifier()
+    count_vectors_ridge_classifier()
     tf_idf__ridge_classifier()
 
 
